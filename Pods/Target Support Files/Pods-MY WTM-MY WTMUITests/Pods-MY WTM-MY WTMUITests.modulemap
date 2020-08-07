@@ -1,0 +1,6 @@
+framework module Pods_MY_WTM_MY_WTMUITests {
+  umbrella header "Pods-MY WTM-MY WTMUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

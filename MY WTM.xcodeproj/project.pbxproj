@@ -1,0 +1,1220 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26636190D049E4A2F8067184 /* Pods_MY_WTM_MY_WTMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C178E006575C8D3C82EF00 /* Pods_MY_WTM_MY_WTMUITests.framework */; };
+		661F56DD24D1C0B9004BD92A /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661F56DC24D1C0B9004BD92A /* FeedCell.swift */; };
+		661F56DF24D2C840004BD92A /* FeedCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661F56DE24D2C840004BD92A /* FeedCellController.swift */; };
+		661F56E124D2D05E004BD92A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661F56E024D2D05E004BD92A /* CustomTextField.swift */; };
+		662BB08C248FD50F0037F53D /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662BB08B248FD50F0037F53D /* CustomSlider.swift */; };
+		662E403F24DC444800C70C0B /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662E403E24DC444800C70C0B /* MainScreenController.swift */; };
+		6633D412248837690010A474 /* ConstraintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6633D411248837690010A474 /* ConstraintExtension.swift */; };
+		6634DD5024CC6D5D00903C5D /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6634DD4F24CC6D5D00903C5D /* SearchController.swift */; };
+		663DC3A8249247F6009E27F4 /* NavigationBarHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663DC3A7249247F6009E27F4 /* NavigationBarHeader.swift */; };
+		663DC3AA24924EA4009E27F4 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663DC3A924924EA4009E27F4 /* EventCell.swift */; };
+		6651951F2497B2BB00B8FD34 /* ChangeSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651951E2497B2BB00B8FD34 /* ChangeSettingsController.swift */; };
+		665388E2249E6A7D001B62B9 /* ConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665388E1249E6A7D001B62B9 /* ConfirmationController.swift */; };
+		66592F5824CC57E600B093B2 /* EventRegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66592F5724CC57E600B093B2 /* EventRegistrationController.swift */; };
+		666197272475993D003182CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666197262475993D003182CF /* AppDelegate.swift */; };
+		666197292475993D003182CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666197282475993D003182CF /* SceneDelegate.swift */; };
+		6661972E2475993D003182CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6661972C2475993D003182CF /* Main.storyboard */; };
+		666197312475993D003182CF /* MY_WTM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6661972F2475993D003182CF /* MY_WTM.xcdatamodeld */; };
+		666197332475993E003182CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666197322475993E003182CF /* Assets.xcassets */; };
+		666197362475993E003182CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666197342475993E003182CF /* LaunchScreen.storyboard */; };
+		666197412475993E003182CF /* MY_WTMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666197402475993E003182CF /* MY_WTMTests.swift */; };
+		6661974C2475993E003182CF /* MY_WTMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661974B2475993E003182CF /* MY_WTMUITests.swift */; };
+		6661975B24759982003182CF /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661975A24759982003182CF /* RegistrationController.swift */; };
+		6661975D247599B3003182CF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661975C247599B3003182CF /* LoginController.swift */; };
+		66619760247599D9003182CF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661975F247599D9003182CF /* Extensions.swift */; };
+		666FC8592475C53100DCAF42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 666FC8582475C53100DCAF42 /* GoogleService-Info.plist */; };
+		666FC85B2476D52800DCAF42 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666FC85A2476D52800DCAF42 /* FeedController.swift */; };
+		668B7CA324ACDB9C008EEFAF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B7CA224ACDB9C008EEFAF /* User.swift */; };
+		66953DB92494FD33007EE7CB /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66953DB82494FD33007EE7CB /* ProfileController.swift */; };
+		66953DBB2494FFD4007EE7CB /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66953DBA2494FFD4007EE7CB /* ProfileHeader.swift */; };
+		66953DBD24950988007EE7CB /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66953DBC24950988007EE7CB /* ProfileCell.swift */; };
+		66953DBF249518C9007EE7CB /* SettingsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66953DBE249518C9007EE7CB /* SettingsTableController.swift */; };
+		66953DC124951C56007EE7CB /* SettingsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66953DC024951C56007EE7CB /* SettingsTableCell.swift */; };
+		66A093722475BB4B00485431 /* Pods_MY_WTM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9A4AB9A543F80BF5BA5939 /* Pods_MY_WTM.framework */; };
+		66A093732475BB4B00485431 /* Pods_MY_WTM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9A4AB9A543F80BF5BA5939 /* Pods_MY_WTM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		66BFE98E248EBFFD00F0236E /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BFE98D248EBFFD00F0236E /* EventController.swift */; };
+		66D0D368248BE40F0000ADC7 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0D367248BE40F0000ADC7 /* VerticalStackView.swift */; };
+		66D0D36A248BF13E0000ADC7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0D369248BF13E0000ADC7 /* Event.swift */; };
+		66EBA6E024A3A8F1005AB5FD /* ResetPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBA6DF24A3A8F1005AB5FD /* ResetPasswordController.swift */; };
+		66EBA6E424A4C8C2005AB5FD /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBA6E324A4C8C2005AB5FD /* Api.swift */; };
+		8239489F26117D5CA9247D31 /* Pods_MY_WTMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7C3E948B6E3E9F7276A877 /* Pods_MY_WTMTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6661973D2475993E003182CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6661971B2475993D003182CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 666197222475993D003182CF;
+			remoteInfo = "MY WTM";
+		};
+		666197482475993E003182CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6661971B2475993D003182CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 666197222475993D003182CF;
+			remoteInfo = "MY WTM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		66A093742475BB4B00485431 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				66A093732475BB4B00485431 /* Pods_MY_WTM.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A7C6C864098A30BF2A0DD02 /* Pods-MY WTMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MY WTMTests.debug.xcconfig"; path = "Target Support Files/Pods-MY WTMTests/Pods-MY WTMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B9A4AB9A543F80BF5BA5939 /* Pods_MY_WTM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MY_WTM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53359862FC7D25D4E4F9B282 /* Pods-MY WTM-MY WTMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MY WTM-MY WTMUITests.debug.xcconfig"; path = "Target Support Files/Pods-MY WTM-MY WTMUITests/Pods-MY WTM-MY WTMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B5CC452ACC8D26E3099DB60 /* Pods-MY WTM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MY WTM.debug.xcconfig"; path = "Target Support Files/Pods-MY WTM/Pods-MY WTM.debug.xcconfig"; sourceTree = "<group>"; };
+		661F56DC24D1C0B9004BD92A /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		661F56DE24D2C840004BD92A /* FeedCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellController.swift; sourceTree = "<group>"; };
+		661F56E024D2D05E004BD92A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		662BB08B248FD50F0037F53D /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		662E403E24DC444800C70C0B /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
+		6633D411248837690010A474 /* ConstraintExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintExtension.swift; sourceTree = "<group>"; };
+		6634DD4F24CC6D5D00903C5D /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		663DC3A7249247F6009E27F4 /* NavigationBarHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarHeader.swift; sourceTree = "<group>"; };
+		663DC3A924924EA4009E27F4 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		6651951E2497B2BB00B8FD34 /* ChangeSettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSettingsController.swift; sourceTree = "<group>"; };
+		665388E1249E6A7D001B62B9 /* ConfirmationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationController.swift; sourceTree = "<group>"; };
+		66592F5724CC57E600B093B2 /* EventRegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRegistrationController.swift; sourceTree = "<group>"; };
+		666197232475993D003182CF /* MY WTM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MY WTM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		666197262475993D003182CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		666197282475993D003182CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6661972D2475993D003182CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		666197302475993D003182CF /* MY_WTM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MY_WTM.xcdatamodel; sourceTree = "<group>"; };
+		666197322475993E003182CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		666197352475993E003182CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		666197372475993E003182CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6661973C2475993E003182CF /* MY WTMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MY WTMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		666197402475993E003182CF /* MY_WTMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MY_WTMTests.swift; sourceTree = "<group>"; };
+		666197422475993E003182CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666197472475993E003182CF /* MY WTMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MY WTMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6661974B2475993E003182CF /* MY_WTMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MY_WTMUITests.swift; sourceTree = "<group>"; };
+		6661974D2475993E003182CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6661975A24759982003182CF /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		6661975C247599B3003182CF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		6661975F247599D9003182CF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		666FC8582475C53100DCAF42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		666FC85A2476D52800DCAF42 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		668B7CA224ACDB9C008EEFAF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		66953DB82494FD33007EE7CB /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		66953DBA2494FFD4007EE7CB /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		66953DBC24950988007EE7CB /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		66953DBE249518C9007EE7CB /* SettingsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableController.swift; sourceTree = "<group>"; };
+		66953DC024951C56007EE7CB /* SettingsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableCell.swift; sourceTree = "<group>"; };
+		66BFE98D248EBFFD00F0236E /* EventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventController.swift; sourceTree = "<group>"; };
+		66D0D367248BE40F0000ADC7 /* VerticalStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
+		66D0D369248BF13E0000ADC7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		66EBA6DF24A3A8F1005AB5FD /* ResetPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordController.swift; sourceTree = "<group>"; };
+		66EBA6E324A4C8C2005AB5FD /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		68229438B46A8A8C0CD88924 /* Pods-MY WTM-MY WTMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MY WTM-MY WTMUITests.release.xcconfig"; path = "Target Support Files/Pods-MY WTM-MY WTMUITests/Pods-MY WTM-MY WTMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6EC377DDE3B6C7C52F0CE7CE /* Pods-MY WTMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MY WTMTests.release.xcconfig"; path = "Target Support Files/Pods-MY WTMTests/Pods-MY WTMTests.release.xcconfig"; sourceTree = "<group>"; };
+		75C178E006575C8D3C82EF00 /* Pods_MY_WTM_MY_WTMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MY_WTM_MY_WTMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7C3E948B6E3E9F7276A877 /* Pods_MY_WTMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MY_WTMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3E84E8A23D893061727ADA /* Pods-MY WTM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MY WTM.release.xcconfig"; path = "Target Support Files/Pods-MY WTM/Pods-MY WTM.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		666197202475993D003182CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A093722475BB4B00485431 /* Pods_MY_WTM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666197392475993E003182CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8239489F26117D5CA9247D31 /* Pods_MY_WTMTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666197442475993E003182CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26636190D049E4A2F8067184 /* Pods_MY_WTM_MY_WTMUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33D3A3AEA7FE73BA454B8BBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B5CC452ACC8D26E3099DB60 /* Pods-MY WTM.debug.xcconfig */,
+				8E3E84E8A23D893061727ADA /* Pods-MY WTM.release.xcconfig */,
+				53359862FC7D25D4E4F9B282 /* Pods-MY WTM-MY WTMUITests.debug.xcconfig */,
+				68229438B46A8A8C0CD88924 /* Pods-MY WTM-MY WTMUITests.release.xcconfig */,
+				3A7C6C864098A30BF2A0DD02 /* Pods-MY WTMTests.debug.xcconfig */,
+				6EC377DDE3B6C7C52F0CE7CE /* Pods-MY WTMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		662E403D24DC440900C70C0B /* NewDesign */ = {
+			isa = PBXGroup;
+			children = (
+				662E403E24DC444800C70C0B /* MainScreenController.swift */,
+			);
+			path = NewDesign;
+			sourceTree = "<group>";
+		};
+		6634DD4E24CC6D4300903C5D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				6634DD4F24CC6D5D00903C5D /* SearchController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		6634DD5324CD973500903C5D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		6634DD5424CD978600903C5D /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				663DC3A924924EA4009E27F4 /* EventCell.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		6634DD5524CD97BF00903C5D /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				66BFE98D248EBFFD00F0236E /* EventController.swift */,
+				66592F5724CC57E600B093B2 /* EventRegistrationController.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		663DC3A624924763009E27F4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				66953DBA2494FFD4007EE7CB /* ProfileHeader.swift */,
+				66953DBC24950988007EE7CB /* ProfileCell.swift */,
+				66953DC024951C56007EE7CB /* SettingsTableCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6661971A2475993D003182CF = {
+			isa = PBXGroup;
+			children = (
+				666197252475993D003182CF /* MY WTM */,
+				666197242475993D003182CF /* Products */,
+				33D3A3AEA7FE73BA454B8BBB /* Pods */,
+				9563D1854553E3FFF7AC6748 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		666197242475993D003182CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				666197232475993D003182CF /* MY WTM.app */,
+				6661973C2475993E003182CF /* MY WTMTests.xctest */,
+				666197472475993E003182CF /* MY WTMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		666197252475993D003182CF /* MY WTM */ = {
+			isa = PBXGroup;
+			children = (
+				662E403D24DC440900C70C0B /* NewDesign */,
+				66953DC2249634C9007EE7CB /* Service */,
+				66D4C77D247D4D0A0035E1CD /* Views */,
+				66D4C776247C05480035E1CD /* Model */,
+				6661975E247599C8003182CF /* Extensions */,
+				666197592475996B003182CF /* Controllers */,
+				668C3A4924D01FA400CE7B2B /* SupportingFiles */,
+				666197372475993E003182CF /* Info.plist */,
+			);
+			path = "MY WTM";
+			sourceTree = "<group>";
+		};
+		6661973F2475993E003182CF /* MY WTMTests */ = {
+			isa = PBXGroup;
+			children = (
+				666197402475993E003182CF /* MY_WTMTests.swift */,
+				666197422475993E003182CF /* Info.plist */,
+			);
+			path = "MY WTMTests";
+			sourceTree = "<group>";
+		};
+		6661974A2475993E003182CF /* MY WTMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6661974B2475993E003182CF /* MY_WTMUITests.swift */,
+				6661974D2475993E003182CF /* Info.plist */,
+			);
+			path = "MY WTMUITests";
+			sourceTree = "<group>";
+		};
+		666197592475996B003182CF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				66CD26CF248BA3B700B82C14 /* Auth */,
+				66CD26CE248BA39D00B82C14 /* Feed */,
+				6634DD5524CD97BF00903C5D /* Event */,
+				6634DD4E24CC6D4300903C5D /* Search */,
+				66CD26D0248BA3D600B82C14 /* Profile */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6661975E247599C8003182CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6661975F247599D9003182CF /* Extensions.swift */,
+				6633D411248837690010A474 /* ConstraintExtension.swift */,
+				66D0D367248BE40F0000ADC7 /* VerticalStackView.swift */,
+				662BB08B248FD50F0037F53D /* CustomSlider.swift */,
+				661F56E024D2D05E004BD92A /* CustomTextField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		668C3A4924D01FA400CE7B2B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6661973F2475993E003182CF /* MY WTMTests */,
+				6661974A2475993E003182CF /* MY WTMUITests */,
+				666197262475993D003182CF /* AppDelegate.swift */,
+				666197282475993D003182CF /* SceneDelegate.swift */,
+				6661972C2475993D003182CF /* Main.storyboard */,
+				666197322475993E003182CF /* Assets.xcassets */,
+				666197342475993E003182CF /* LaunchScreen.storyboard */,
+				6661972F2475993D003182CF /* MY_WTM.xcdatamodeld */,
+				666FC8582475C53100DCAF42 /* GoogleService-Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		66953DC2249634C9007EE7CB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				66EBA6E324A4C8C2005AB5FD /* Api.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		66CD26CE248BA39D00B82C14 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				666FC85A2476D52800DCAF42 /* FeedController.swift */,
+				661F56DE24D2C840004BD92A /* FeedCellController.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		66CD26CF248BA3B700B82C14 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				6661975C247599B3003182CF /* LoginController.swift */,
+				6661975A24759982003182CF /* RegistrationController.swift */,
+				665388E1249E6A7D001B62B9 /* ConfirmationController.swift */,
+				66EBA6DF24A3A8F1005AB5FD /* ResetPasswordController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		66CD26D0248BA3D600B82C14 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				66953DB82494FD33007EE7CB /* ProfileController.swift */,
+				66953DBE249518C9007EE7CB /* SettingsTableController.swift */,
+				6651951E2497B2BB00B8FD34 /* ChangeSettingsController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		66D0D364248BD2A60000ADC7 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				663DC3A7249247F6009E27F4 /* NavigationBarHeader.swift */,
+				661F56DC24D1C0B9004BD92A /* FeedCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		66D4C776247C05480035E1CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66D0D369248BF13E0000ADC7 /* Event.swift */,
+				668B7CA224ACDB9C008EEFAF /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66D4C77D247D4D0A0035E1CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66D0D364248BD2A60000ADC7 /* Feed */,
+				6634DD5424CD978600903C5D /* Event */,
+				6634DD5324CD973500903C5D /* Search */,
+				663DC3A624924763009E27F4 /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9563D1854553E3FFF7AC6748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B9A4AB9A543F80BF5BA5939 /* Pods_MY_WTM.framework */,
+				75C178E006575C8D3C82EF00 /* Pods_MY_WTM_MY_WTMUITests.framework */,
+				7E7C3E948B6E3E9F7276A877 /* Pods_MY_WTMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		666197222475993D003182CF /* MY WTM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666197502475993E003182CF /* Build configuration list for PBXNativeTarget "MY WTM" */;
+			buildPhases = (
+				4A7B765CB9DC070654CE8643 /* [CP] Check Pods Manifest.lock */,
+				6661971F2475993D003182CF /* Sources */,
+				666197202475993D003182CF /* Frameworks */,
+				666197212475993D003182CF /* Resources */,
+				C5FABA70C05F817241F2D3D6 /* [CP] Embed Pods Frameworks */,
+				66A093742475BB4B00485431 /* Embed Frameworks */,
+				41D7A5409DD36AC02482A7EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MY WTM";
+			productName = "MY WTM";
+			productReference = 666197232475993D003182CF /* MY WTM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6661973B2475993E003182CF /* MY WTMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666197532475993E003182CF /* Build configuration list for PBXNativeTarget "MY WTMTests" */;
+			buildPhases = (
+				BCD338EDAD0CCD2C1772971D /* [CP] Check Pods Manifest.lock */,
+				666197382475993E003182CF /* Sources */,
+				666197392475993E003182CF /* Frameworks */,
+				6661973A2475993E003182CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6661973E2475993E003182CF /* PBXTargetDependency */,
+			);
+			name = "MY WTMTests";
+			productName = "MY WTMTests";
+			productReference = 6661973C2475993E003182CF /* MY WTMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		666197462475993E003182CF /* MY WTMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666197562475993E003182CF /* Build configuration list for PBXNativeTarget "MY WTMUITests" */;
+			buildPhases = (
+				A3561CD95A758908A53B6757 /* [CP] Check Pods Manifest.lock */,
+				666197432475993E003182CF /* Sources */,
+				666197442475993E003182CF /* Frameworks */,
+				666197452475993E003182CF /* Resources */,
+				D8DA5AA647C3E119656B4B90 /* [CP] Embed Pods Frameworks */,
+				DA872C63587A732FFA858237 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666197492475993E003182CF /* PBXTargetDependency */,
+			);
+			name = "MY WTMUITests";
+			productName = "MY WTMUITests";
+			productReference = 666197472475993E003182CF /* MY WTMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6661971B2475993D003182CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Макс Гаравський";
+				TargetAttributes = {
+					666197222475993D003182CF = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					6661973B2475993E003182CF = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 666197222475993D003182CF;
+					};
+					666197462475993E003182CF = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 666197222475993D003182CF;
+					};
+				};
+			};
+			buildConfigurationList = 6661971E2475993D003182CF /* Build configuration list for PBXProject "MY WTM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6661971A2475993D003182CF;
+			productRefGroup = 666197242475993D003182CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				666197222475993D003182CF /* MY WTM */,
+				6661973B2475993E003182CF /* MY WTMTests */,
+				666197462475993E003182CF /* MY WTMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		666197212475993D003182CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666197362475993E003182CF /* LaunchScreen.storyboard in Resources */,
+				666FC8592475C53100DCAF42 /* GoogleService-Info.plist in Resources */,
+				666197332475993E003182CF /* Assets.xcassets in Resources */,
+				6661972E2475993D003182CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6661973A2475993E003182CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666197452475993E003182CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41D7A5409DD36AC02482A7EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MY WTM/Pods-MY WTM-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MY WTM/Pods-MY WTM-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MY WTM/Pods-MY WTM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A7B765CB9DC070654CE8643 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MY WTM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3561CD95A758908A53B6757 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MY WTM-MY WTMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD338EDAD0CCD2C1772971D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MY WTMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5FABA70C05F817241F2D3D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MY WTM/Pods-MY WTM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MY WTM/Pods-MY WTM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MY WTM/Pods-MY WTM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8DA5AA647C3E119656B4B90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MY WTM-MY WTMUITests/Pods-MY WTM-MY WTMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MY WTM-MY WTMUITests/Pods-MY WTM-MY WTMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MY WTM-MY WTMUITests/Pods-MY WTM-MY WTMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA872C63587A732FFA858237 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MY WTM-MY WTMUITests/Pods-MY WTM-MY WTMUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MY WTM-MY WTMUITests/Pods-MY WTM-MY WTMUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MY WTM-MY WTMUITests/Pods-MY WTM-MY WTMUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6661971F2475993D003182CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662BB08C248FD50F0037F53D /* CustomSlider.swift in Sources */,
+				666197312475993D003182CF /* MY_WTM.xcdatamodeld in Sources */,
+				661F56DF24D2C840004BD92A /* FeedCellController.swift in Sources */,
+				6661975D247599B3003182CF /* LoginController.swift in Sources */,
+				663DC3AA24924EA4009E27F4 /* EventCell.swift in Sources */,
+				66953DBB2494FFD4007EE7CB /* ProfileHeader.swift in Sources */,
+				6634DD5024CC6D5D00903C5D /* SearchController.swift in Sources */,
+				66953DB92494FD33007EE7CB /* ProfileController.swift in Sources */,
+				66953DBF249518C9007EE7CB /* SettingsTableController.swift in Sources */,
+				66EBA6E024A3A8F1005AB5FD /* ResetPasswordController.swift in Sources */,
+				666197272475993D003182CF /* AppDelegate.swift in Sources */,
+				665388E2249E6A7D001B62B9 /* ConfirmationController.swift in Sources */,
+				6633D412248837690010A474 /* ConstraintExtension.swift in Sources */,
+				66953DBD24950988007EE7CB /* ProfileCell.swift in Sources */,
+				662E403F24DC444800C70C0B /* MainScreenController.swift in Sources */,
+				661F56E124D2D05E004BD92A /* CustomTextField.swift in Sources */,
+				6661975B24759982003182CF /* RegistrationController.swift in Sources */,
+				66592F5824CC57E600B093B2 /* EventRegistrationController.swift in Sources */,
+				66D0D36A248BF13E0000ADC7 /* Event.swift in Sources */,
+				661F56DD24D1C0B9004BD92A /* FeedCell.swift in Sources */,
+				663DC3A8249247F6009E27F4 /* NavigationBarHeader.swift in Sources */,
+				66EBA6E424A4C8C2005AB5FD /* Api.swift in Sources */,
+				666197292475993D003182CF /* SceneDelegate.swift in Sources */,
+				66D0D368248BE40F0000ADC7 /* VerticalStackView.swift in Sources */,
+				668B7CA324ACDB9C008EEFAF /* User.swift in Sources */,
+				66619760247599D9003182CF /* Extensions.swift in Sources */,
+				6651951F2497B2BB00B8FD34 /* ChangeSettingsController.swift in Sources */,
+				66953DC124951C56007EE7CB /* SettingsTableCell.swift in Sources */,
+				666FC85B2476D52800DCAF42 /* FeedController.swift in Sources */,
+				66BFE98E248EBFFD00F0236E /* EventController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666197382475993E003182CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666197412475993E003182CF /* MY_WTMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666197432475993E003182CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6661974C2475993E003182CF /* MY_WTMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6661973E2475993E003182CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 666197222475993D003182CF /* MY WTM */;
+			targetProxy = 6661973D2475993E003182CF /* PBXContainerItemProxy */;
+		};
+		666197492475993E003182CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 666197222475993D003182CF /* MY WTM */;
+			targetProxy = 666197482475993E003182CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6661972C2475993D003182CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6661972D2475993D003182CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		666197342475993E003182CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				666197352475993E003182CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6661974E2475993E003182CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6661974F2475993E003182CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		666197512475993E003182CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5CC452ACC8D26E3099DB60 /* Pods-MY WTM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VXJ4F9SPN;
+				INFOPLIST_FILE = "MY WTM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AppAuth\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseFirestore\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"FirebaseStorage\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMAppAuth\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleDataTransportCCTSupport\"",
+					"-framework",
+					"\"GoogleSignIn\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JGProgressHUD\"",
+					"-framework",
+					"\"LocalAuthentication\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"absl\"",
+					"-framework",
+					"\"grpc\"",
+					"-framework",
+					"\"grpcpp\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-framework",
+					"\"openssl_grpc\"",
+					"-weak_framework",
+					"\"AuthenticationServices\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maxharavskyy.MY-WTM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		666197522475993E003182CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3E84E8A23D893061727ADA /* Pods-MY WTM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VXJ4F9SPN;
+				INFOPLIST_FILE = "MY WTM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AppAuth\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseFirestore\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"FirebaseStorage\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMAppAuth\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleDataTransportCCTSupport\"",
+					"-framework",
+					"\"GoogleSignIn\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JGProgressHUD\"",
+					"-framework",
+					"\"LocalAuthentication\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"absl\"",
+					"-framework",
+					"\"grpc\"",
+					"-framework",
+					"\"grpcpp\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-framework",
+					"\"openssl_grpc\"",
+					"-weak_framework",
+					"\"AuthenticationServices\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maxharavskyy.MY-WTM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		666197542475993E003182CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7C6C864098A30BF2A0DD02 /* Pods-MY WTMTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MY WTMTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maxharavskyy.MY-WTMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MY WTM.app/MY WTM";
+			};
+			name = Debug;
+		};
+		666197552475993E003182CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC377DDE3B6C7C52F0CE7CE /* Pods-MY WTMTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MY WTMTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maxharavskyy.MY-WTMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MY WTM.app/MY WTM";
+			};
+			name = Release;
+		};
+		666197572475993E003182CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53359862FC7D25D4E4F9B282 /* Pods-MY WTM-MY WTMUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MY WTMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maxharavskyy.MY-WTMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MY WTM";
+			};
+			name = Debug;
+		};
+		666197582475993E003182CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68229438B46A8A8C0CD88924 /* Pods-MY WTM-MY WTMUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MY WTMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maxharavskyy.MY-WTMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MY WTM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6661971E2475993D003182CF /* Build configuration list for PBXProject "MY WTM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6661974E2475993E003182CF /* Debug */,
+				6661974F2475993E003182CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666197502475993E003182CF /* Build configuration list for PBXNativeTarget "MY WTM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666197512475993E003182CF /* Debug */,
+				666197522475993E003182CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666197532475993E003182CF /* Build configuration list for PBXNativeTarget "MY WTMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666197542475993E003182CF /* Debug */,
+				666197552475993E003182CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666197562475993E003182CF /* Build configuration list for PBXNativeTarget "MY WTMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666197572475993E003182CF /* Debug */,
+				666197582475993E003182CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6661972F2475993D003182CF /* MY_WTM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				666197302475993D003182CF /* MY_WTM.xcdatamodel */,
+			);
+			currentVersion = 666197302475993D003182CF /* MY_WTM.xcdatamodel */;
+			path = MY_WTM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6661971B2475993D003182CF /* Project object */;
+}
